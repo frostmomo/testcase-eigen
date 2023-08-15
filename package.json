@@ -1,0 +1,28 @@
+{
+  "name": "express-api",
+  "version": "1.0.0",
+  "description": "Testcase for Backend at Eigen",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "npx sequelize-cli db:migrate --migrations-path src/infrastructure/migrations --config config/config.json && npx sequelize-cli db:seed:all --seeders-path src/infrastructure/seeders --config config/config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frostmomo/testcase-eigen.git"
+  },
+  "author": "Tangkas Mukti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frostmomo/testcase-eigen/issues"
+  },
+  "homepage": "https://github.com/frostmomo/testcase-eigen#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.2",
+    "sequelize": "^6.32.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  }
+}
