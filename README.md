@@ -1,6 +1,4 @@
-########################################
-Express JS Testcase on Eigen Tri Mathema
-########################################
+##### Express JS Testcase on Eigen Tri Mathema #####
 
 1. Soal Algoritma terdapat didalam folde Algoritma
 2. Setelah aplikasi di clone :
